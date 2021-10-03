@@ -141,6 +141,7 @@ textarea {
 	border: 1px solid #e5e5e5;
 	margin: 2px 5px;
 	border-radius: 20px;
+	text-transform: uppercase;
 }
 .btn-filters:active,
 .btn-filters:active,

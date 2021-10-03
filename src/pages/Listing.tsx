@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import cars from "../api/cars.json";
 import CarCard from "../components/CarCard";
+import FilterButton from "../components/FilterButton";
 import ChevronCircled from "../images/chevron-circled.svg";
 
 export type CarType = {
@@ -94,34 +95,10 @@ export default function Listing() {
 				<div className="filters-container">
 					<h4 className="">Sort by Body Types : </h4>
 					<div className="d-flex">
-						<button
-							className="btn btn-filters "
-							onClick={() => handleFilter("suv")}
-							name="filter button"
-						>
-							SUV
-						</button>
-						<button
-							className="btn btn-filters "
-							onClick={() => handleFilter("sedan")}
-							name="filter button"
-						>
-							SEDAN
-						</button>
-						<button
-							className="btn btn-filters "
-							onClick={() => handleFilter("estate")}
-							name="filter button"
-						>
-							ESTATE
-						</button>
-						<button
-							className="btn btn-filters "
-							onClick={() => handleFilter("all")}
-							name="filter button"
-						>
-							ALL
-						</button>
+						<FilterButton text="suv" handleFilter={handleFilter} />
+						<FilterButton text="sedan" handleFilter={handleFilter} />
+						<FilterButton text="estate" handleFilter={handleFilter} />
+						<FilterButton text="all" handleFilter={handleFilter} />
 					</div>
 				</div>
 			</div>
