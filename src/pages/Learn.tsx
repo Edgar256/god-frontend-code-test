@@ -2,7 +2,7 @@ import React from "react";
 import cars from "../api/cars.json";
 
 export default function Learn() {
-	const id = window.location.pathname.slice(7);
+	const id = window.location.hash.slice(8);
 	const car = cars.find((car) => car.id === id);
 
 	return (
@@ -16,7 +16,7 @@ export default function Learn() {
 					</p>
 					<p>{car?.modelType}</p>
 				</div>
-				<img src={car?.imageUrl} alt="" className="car-img" />
+				<img src={`${process.env.PUBLIC_URL}/${car?.imageUrl}`} alt="" className="car-img" />
 			</div>
 		</div>
 	);

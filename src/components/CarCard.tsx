@@ -26,7 +26,7 @@ const CarCard: React.FC<Props> = ({
 				</p>
 				<p>{modelType}</p>
 			</div>
-			<img src={imageUrl} alt="" className="car-img" />
+			<img src={`${process.env.PUBLIC_URL}/${imageUrl}`} alt="" className="car-img" />
 			<div className="car-buttons">
 				<Link to={`/learn/${id}`} className="page-link">
 					LEARN <img src={ChevronSmall} width="15" alt="" />
