@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc62e3d87edc38ea8840067fbde53e5c",
+    "revision": "cca0b3352e3d21b49bd4705758519c2b",
     "url": "/god-frontend-code-test/index.html"
   },
   {
-    "revision": "2afc54732a127b30da6b",
-    "url": "/god-frontend-code-test/static/css/main.a9eee94c.chunk.css"
+    "revision": "323a76be9bc9a63c578b",
+    "url": "/god-frontend-code-test/static/css/main.abfedd51.chunk.css"
   },
   {
     "revision": "5c756d4db834950c1893",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/god-frontend-code-test/static/js/2.91e0d67e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2afc54732a127b30da6b",
-    "url": "/god-frontend-code-test/static/js/main.fc3ba7a5.chunk.js"
+    "revision": "323a76be9bc9a63c578b",
+    "url": "/god-frontend-code-test/static/js/main.0fd99b3c.chunk.js"
   },
   {
     "revision": "e98a80c7338d0de738be",
