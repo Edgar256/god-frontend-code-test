@@ -1,8 +1,8 @@
 {
+  "homepage": "https://edgar256.github.io/god-frontend-code-test/",
   "name": "frontend-code-test",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://edgar256.github.io/god-frontend-code-test/",
+  "private": true,  
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -23,9 +23,9 @@
     "vcc-ui": "^2.10.2"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",    
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
